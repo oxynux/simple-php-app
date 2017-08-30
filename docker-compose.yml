@@ -3,6 +3,7 @@ version: "3"
 services:
   app:
     build: .
+    image: oxynux/simple-php-app
     environment:
       DBHOST: training42.cyoeqqqyqbrp.eu-west-1.rds.amazonaws.com:3306
       DATABASE: training42
